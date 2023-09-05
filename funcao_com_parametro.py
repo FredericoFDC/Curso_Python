@@ -32,7 +32,7 @@ def cantar_parabens(aniversariante):
 
 cantar_parabens('Marcos')
 
-"""
+
 # Funções podem ter n parâmetros de entrada. Ou seja, podemos receber como entrada 
 # em uma função quantas parâmetros forem necessários. Eles são separados por vírgula.
 
@@ -55,3 +55,11 @@ print(multiplicacao(10, 20))
 
 print(outra(2, 5, 'Geek'))
 print(outra(10, 20, 'Geek'))
+
+"""
+# Nomeando parâmetros
+
+def nome_completo(nome, sobrenome):
+    return f'Seu nome completo é {nome} {sobrenome}'
+
+print(nome_completo('Angelina', 'Jolie'))
