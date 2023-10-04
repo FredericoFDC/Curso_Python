@@ -63,9 +63,8 @@ print(joga_moeda())
 """
 # Erros comuns na utilização do retorno, que na verdade nem é erro, mas sim codificação desnecessária.
 
-def eh_impar():
-    numero = 11
-    if numero % 2 != 0:
+def eh_impar(valor):
+    if valor % 2 != 0:
         return True
     return False
 print(eh_impar())
